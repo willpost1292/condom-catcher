@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <h1>Condom Catcher!</h1>
-      <h3>A snake-like game for protecting your snake! <br/> Current points: {points}</h3>
+      <h3>A snake-like game for protecting your snake! (use arrow keys to play) <br/> Current points: {points}</h3>
       { !isPlaying ? <GameOver score={points} btnHandler={refreshPage} facts={getFacts()}/> : null }
 
       <SnakeBoard
