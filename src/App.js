@@ -15,9 +15,8 @@ function App() {
 
   return (
     <div className="App">
-      <br/>
       <h1>Condom Catcher!</h1>
-      <h2>Current points: {points}</h2>
+      <h3>A snake-like game for protecting your snake! <br/> Current points: {points}</h3>
       { !isPlaying ? <GameOver score={points} btnHandler={refreshPage} facts={getFacts()}/> : null }
 
       <SnakeBoard
@@ -27,11 +26,12 @@ function App() {
         setIsPlaying={setIsPlaying}
       />
       <br/>
-      <p>By Will Post. Facts from Dr. Vallin's WSBIOL 350 class and <br/>
+      <p >By Will Post. Facts from Dr. Vallin's WSBIOL 350 class and <br/>
         <a href="https://www.plannedparenthood.org/about-us/newsroom/press-releases/ten-little-known-facts-about-condoms-planned-parenthood">
            Planned Parenthood.</a>
       </p>
-    </div>
+
+      </div>
   );
 }
 
