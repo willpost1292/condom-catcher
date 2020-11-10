@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/condom-catcher/precache-manifest.23a5413aee5eeb4081b7d327801a2dbd.js"
+  "/condom-catcher/precache-manifest.e84ba3366813e555132427043dfe1b78.js"
 );
 
 self.addEventListener('message', (event) => {
