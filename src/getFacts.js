@@ -22,7 +22,15 @@ const FACTS = [
   "The vast majority of American teens (68 percent of females and 82 percent of males) use a condom the first time they have sex.",
   "Only 39 percent of American high school students are taught how to correctly use a condom in their health classes." +
   " Programs that teach young people about abstinence as well as contraception, including condom use, " +
-  "help youth to delay first sex and use condoms and other forms of contraception when they do have sex."
+  "help youth to delay first sex and use condoms and other forms of contraception when they do have sex.",
+  "Perpetrators of sexual assault are most often someone who is known by the victim.",
+  "According to RAINN, every 73 seconds, an American is sexually assulted. And every 9 minutes, that victim is a child.",
+  "Consent to some form of sexual activity does not necessarily imply consent to other forms of sexual activity.",
+  "All people involved in sexual activity must be fully conscious and actively communicate their consent.",
+  "Approximately 77% of sexual assaults go unreported.",
+  "Perpetrators of sexual violence most often abuse people 18-34 years of age.",
+  "Each year, 434,000 americans ages 12 and older are sexually assaulted.",
+  "Nine out of every 10 sexual assault survivors in the US are female.",
 ];
 
 export default () => { return FACTS[Math.floor(Math.random() * FACTS.length)]; };
